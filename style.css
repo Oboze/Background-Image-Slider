@@ -30,12 +30,22 @@ body{
 }
 .button{
     background-color:var(--skyblue);
+    opacity:0.7;    
     border-radius:5px;
     color:var(--fluffywhite);
     border-color:var(--skyblue);
     padding:1rem;
     font-weight: 900;
     font-size:24px;
+}
+.button-left,.button-right{
+    position:relative;
+}
+.button-left{
+    left:15px;
+}
+.button-right{
+    right:15px;
 }
 
 button:hover{
